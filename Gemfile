@@ -36,6 +36,20 @@ gem 'active_link_to'
 
 gem "profanity_filter"
 
+# let's add uploading files
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+gem 'fog-aws'
+
+# add admin panel
+gem 'activeadmin'
+
+# Plus integrations with:
+gem 'devise'
+gem 'cancan' # or cancancan
+gem 'draper'
+gem 'pundit'
+
 gem 'bcrypt', '~>3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
